@@ -1,0 +1,80 @@
+<!DOCKTYPE html>
+<html>
+	<head>
+		<link rel = "shortcut icon" href = "../Images/Mtmtr.png" type = "image/png">
+		<script src = '../JS/ChangeTheme.js'></script>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" href = "../Style.css">
+		<script src = "Phl.js"></script><!-- Вставить название скрипта -->
+		<script src = "../JS/Physics/E1.js"></script>
+		<script src = "../JS/Physics/E2.js"></script>
+		<title>ForMuls</title>
+	</head>
+	<body>
+		<main>
+			<header id = 'main'>
+				<script src = '../JS/Header.js'></script>
+				<h2>Математор</h2>
+			</header>
+			<div id = 'main2'></div>
+			<script src = '../JS/Header2.js'></script>
+			<div class = 'themes'>
+				<h3 class = 'mastitle' onclick = 'ari()' id = 'Themes'>Темы</h3>	
+			</div>
+		</main>
+		<article align = 'center'>
+			<h3>Теория атома</h3>
+			<h4>Параметры элемента</h4>
+			<table align = 'center'>
+				<tr>
+					<td class = 'td'>
+						A — Атомная масса/Число нуклонов<br>
+						Z — Заряд ядра/Число протонов/электронов<br>
+						A-Z — Число нейтронов<br>
+						X — Название элемента
+					</td>
+					<td class = 'td'>
+						<img class = 'form' height = '100rem' src = 'Images/Element.png' alt = 'Элемент с массой и зарядовым числом'>
+					</td>
+			</table>
+			<h4>Массы составных частей атома</h4>
+				<p class = 'p'>
+				m<sub>протона</sub> = m<sub>p</sub>&nbsp;= 1,00728 а.е.м.<br>
+				m<sub>нейтрона</sub> = m<sub>n</sub>&nbsp;= 1,00867 а.е.м.<br>
+				m<sub>электрона</sub> = m<sub>e</sub>&nbsp;= 0,0005486 а.е.м.<br>
+			<h4>Масса атома</h4>
+			<p class = 'p'><strong>m<sub>ядра</sub>&nbsp;= m<sub>атома</sub> - Z·m<sub>e</sub></strong></p>
+			<h4>Дефект масс</h4>
+			<div align = 'center' style = "width: 60%; margin-left: 20%;">
+			<p class = 'p'>Чтобы найти дефект масс:</p>
+			<ol align = 'left'>
+				<li>Суммируем массы протонов и нейтронов ядра&nbsp;(m<sub>1</sub>)</li>
+				<li>Вычитаем из массы атома, взятой из табличных данных, массу всех электронов атома&nbsp;(m<sub>2</sub>)</li>
+				<li>Находим разность этих масс&nbsp;(m<sub>1</sub>&nbsp;-&nbsp;m<sub>2</sub>)</li>
+			</ol></div>
+			<p class = 'p'>m<sub>1</sub> = Z·m<sub>p</sub>&nbsp;+ (A-Z)·m<sub>n</sub></p>
+			<p class = 'p'>m<sub>2</sub> =  m<sub>атома</sub>&nbsp;- Z·m<sub>e</sub></p>
+			<p class = 'p'><strong>Δm = m<sub>1</sub> - m<sub>2</sub>&nbsp;= Z·m<sub>p</sub>&nbsp;+ (A-Z)·m<sub>n</sub> - m<sub>атома</sub>&nbsp;+ Z·m<sub>e</sub></strong></p>
+			
+			<div class = 'themes' align = 'center' style = "width: 60%; margin-left: 20%;">
+				<h3 class = 'mastitle' onclick = 'exph1()' id = 'Exp1'>Пример вычисления <i>дефекта массы</i></h3>
+			</div>
+			
+			<h4>Энергия связи ядра</h4>
+			<p class = 'p'><strong>E<sub>св</sub>=Δmc<sup>2</sup></strong></p>
+			<p class = 'p'>c<sup>2</sup> = 931,5&nbsp;МэВ/а.е.м.</p>
+			<p class = 'p'>1 МэВ = 1,6·10<sup>-19</sup>&nbsp;Дж/МэВ</p>
+			<div class = 'themes' align = 'center' style = "width: 60%; margin-left: 20%;">
+				<h3 class = 'mastitle' onclick = 'exph2()' id = 'Exp2'>Пример вычисления <i>энергии связи ядра</i></h3>
+			</div>
+			<h4>Удельная энергия связи ядра</h4>
+			<p class = 'p'>Для нахождения <i>удельной энергии связи ядра</i> нужно разделить <i>энергию связи ядра</i> на количество нуклонов ядра</p>
+			<p class = 'p'><strong>E<sub>удельная</sub>=E<sub>связи</sub>/A</strong></p>
+		</article>
+		
+		<footer>
+			<p align = 'center'></p><br><br><br>
+		</footer>
+	
+	</body>
+</html>
