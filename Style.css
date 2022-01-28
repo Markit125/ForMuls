@@ -1,0 +1,349 @@
+html {
+	filter: invert(0%);
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+}
+body {
+	background-image: url(Images/BG.png);
+	background-size: 777px;
+}
+header {
+	margin-bottom: -1rem;
+}
+nav {
+	margin-left: 2rem;
+}
+main {
+	margin-left: 0rem;
+}
+.dowbtn {
+	height: 15%;
+	width: 30%;
+	color: grey;
+	font: 'MK-90';
+	border-radius: 2rem;
+	font-size: 1.2rem;
+}
+.dowbtn:hover {
+	color: #191919;
+	background-color: #a9a9a9;
+}
+.mul {
+	margin-top: 2.25rem;
+}
+.mastitle {
+	margin-left: 2rem;
+	padding-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+.mastitle:hover {
+	background: linear-gradient(90deg, #5F9EA0, #008080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	cursor: pointer;
+	-moz-user-select: none;
+    -webkit-user-select: none;
+}
+.Pagename {
+	margin-left: -2rem;
+	margin-bottom: -1rem;
+	font-size: 2.6rem;
+}
+.pgnm {
+	margin-left: -2rem;
+}
+.themes {
+	background: #F5F5F5;
+	border-left: 3px solid #696969;
+	padding-top: 0rem;
+	padding-bottom: 4px;
+	margin-right: 5px;
+	border-radius: 0.5rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+a:hover {
+	background: linear-gradient(90deg, #5F9EA0, #008080);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+ol {
+	margin-top: -0.5rem;
+	margin-left: 3rem;
+}
+div {
+	margin-left: 2rem;
+}
+.form {
+	margin-top: -0.75rem;
+	border-radius: 0.5rem;
+}
+/*<img src = '' class = 'form' alt = ''>*/
+.logo {
+	float: left;
+	height: 5.5rem;
+	border-radius: 0.25rem;
+}
+.flr {
+	float: 'right';
+}
+.fll {
+	margin-top: -0.75rem;
+	border-radius: 0.5rem;
+	float: right;
+}
+.flu {
+	float: '';
+}
+img {
+	filter: invert(0);
+	border-radius: 1rem;
+}
+.hrap {
+	margin-top: -1.7rem;
+	display: flex;
+}
+hr {
+	margin-left: -1.7rem;
+}
+p {
+	margin-top: 2rem;
+}
+.p {
+	margin-top: -0.7rem;
+}
+th, td {
+	font-family: 'Bold Creek';
+	/*empty-cells: hide;*/
+}
+.td {
+	font-size: 20px;
+	font-family: 'Comic Sans MS';
+}
+.th{
+	font-style: italic;
+}
+.tab {
+	margin-bottom: -0.3rem;
+}
+.tableb {
+	border: 10px groove grey;
+}
+.uztd {
+	height: 3rem;
+}
+.mathi {
+	margin-top: -0.3rem;
+}
+.math {
+	font-style: italic;
+	margin-top: -0.5rem;
+	font-family: 'Bold Creek';
+}
+.navia:hover {
+	background: linear-gradient(90deg, #FF4500, #FF4500);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.thblock1, .thblock2, .thblock3, .thblock4, .thblock5, .thblock6 {
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 2rem;
+	width: 20%;
+	height: 35%;
+	margin-top: 1rem;
+	margin-right: -1.3rem;
+	color: #000;
+	/*
+	position: relative;
+	z-index: 0;*/
+}
+.thblo1:hover {
+	background: #FF6618;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	/*transition: .3s ease-out;*/
+}
+.thblo2:hover {
+	background: rgba(145, 11, 248, 1);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	/*transition: .3s ease-out;*/
+}
+.thblo3:hover {
+	background: #1995AD;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	/*transition: .3s ease-out;*/
+}
+.thblo4:hover {
+	background: #FA8D62;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	/*transition: .3s ease-out;*/
+}
+.thblo5:hover {
+	background: #F80;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*transition: .3s ease-out;*/
+}
+.thblo6:hover {
+	background: #FC0;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	/*transition: .3s ease-out;*/
+}
+.thblo7:hover {
+	background: ;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	
+	transition: .3s ease-out;
+}
+.thblock1:hover {
+	background: #FF6618;
+	transition: .3s ease-out;
+	
+}
+.thblock1:hover .bloxtxt {
+	background: #EEE;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.thblock2:hover {
+	background: #AAF;
+	transition: .3s ease-out;
+}
+.thblock2:hover .bloxtxt {
+	background: #800080;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.thblock3:hover {
+	background: #1995AD;
+	transition: .3s ease-out;
+}
+.thblock3:hover .bloxtxt {
+	background: #F1F1F2;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.thblock4:hover {
+	background: #FA8D62;
+	transition: .3s ease-out;
+}
+.thblock4:hover .bloxtxt {
+	background: #2B616D;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.thblock5:hover {
+	background: #F80;
+	transition: .3s ease-out;
+}
+.thblock5:hover .bloxtxt {
+	background:  #FDFE5A;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.thblock6:hover {
+	background: #FC0;
+	transition: .3s ease-out;
+}
+.thblock6:hover .bloxtxt {
+	background: #000;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: .3s ease-out;
+}
+.bloxtxt {
+	color: #000;
+	margin-top: 0;
+	font-size: 1.45rem;
+	display: inline;/*
+	position: absolute;
+	z-index: 1;*/
+}
+.imgmain {
+	margin-bottom: 0rem;
+	margin-top: 0rem;
+	vertical-align: center;
+	height: 50%;
+}
+.ml, .mr {
+	display: inline-block;
+	margin: 0;
+	/*margin-bottom: 1rem;*/
+}
+.ml {
+	float: left;
+	text-align: left;
+}
+.mr {
+	float: right;
+	text-align: right;
+	margin-right: 0.2rem;
+	margin-left: 0.15rem;
+}
+.elem {
+	font-size: 1.6rem;
+	margin: 0;
+}
+.elnamel, .elnamer {
+	margin: 0;
+}
+.elnamer {
+	text-align: right;
+}
+.elnamel {
+	text-align: left;
+}
+.elnum {
+	margin: 0;
+	font-size: 1.2rem;
+}
+.desc {
+	margin: 0;
+	margin-top: 2rem;
+	margin-right: 0.2rem;
+	margin-left: 0.15rem;
+}
+.RO {
+	 margin: 1rem;
+	 font-size: 1.3rem;
+}
+@font-face {
+    font-family: 'MK-90';
+    src: url(Images/19355.ttf);
+}
+/*=============================*/
+.webgl-content * {border: 0; margin: 0; padding: 0}
+
+.webgl-content .logo, .progress {position: absolute; left: 50%; top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%);}
+.webgl-content .logo {background: url('Matemator/TemplateData/progressLogo.Light.png') no-repeat center / contain; width: 154px; height: 130px;}
+.webgl-content .progress {height: 18px; width: 141px; margin-top: 90px;}
+.webgl-content .progress .empty {background: url('Matemator/TemplateData/progressEmpty.Light.png') no-repeat right / cover; float: right; width: 100%; height: 100%; display: inline-block;}
+.webgl-content .progress .full {background: url('Matemator/TemplateData/progressFull.Light.png') no-repeat left / cover; float: left; width: 0%; height: 100%; display: inline-block;}
+
+.webgl-content .logo.Dark {background-image: url('Matemator/TemplateData/progressLogo.Dark.png');}
+.webgl-content .progress.Dark .empty {background-image: url('Matemator/TemplateData/progressEmpty.Dark.png');}
+.webgl-content .progress.Dark .full {background-image: url('Matemator/TemplateData/progressFull.Dark.png');}
+
+.webgl-content .footer {margin-top: 5px; height: 38px; line-height: 38px; font-family: Helvetica, Verdana, Arial, sans-serif; font-size: 18px;}
+.webgl-content .footer .webgl-logo, .title, .fullscreen {height: 100%; display: inline-block; background: transparent center no-repeat;}
+.webgl-content .footer .webgl-logo {background-image: url('Matemator/TemplateData/webgl-logo.png'); width: 204px; float: left;}
+.webgl-content .footer .title {margin-right: 10px; float: right;}
+.webgl-content .footer .fullscreen {background-image: url('Matemator/TemplateData/fullscreen.png'); width: 38px; float: right;}
